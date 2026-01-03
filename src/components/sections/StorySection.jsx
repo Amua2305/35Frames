@@ -90,7 +90,7 @@ export default function StorySection() {
           {/* FRONT IMAGE */}
           <img
             src={img2}
-            className="w-[170px] md:w-[260px] lg:w-[250px] rounded-lg shadow-xl absolute top-5 left-8 md:top-10 md:left-10"
+            className="w-[170px] md:w-[260px] lg:w-[250px] rounded-lg shadow-xl absolute top-5 left-10 md:top-10 md:left-10"
           />
         </div>
 
