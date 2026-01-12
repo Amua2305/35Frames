@@ -86,3 +86,17 @@ h2 {
   font-weight: 900;
   text-align: center;
 }
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-zoom {
+  animation: zoomIn 0.25s ease-out;
+}
