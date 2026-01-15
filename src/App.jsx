@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <Navbar />
-      <Outlet />   {/* This loads Home, About, Portfolio, etc. */}
+      <Outlet  />   {/* This loads Home, About, Portfolio, etc. */}
       <Footer />   {/* Footer stays on every page */}
     </>
   );

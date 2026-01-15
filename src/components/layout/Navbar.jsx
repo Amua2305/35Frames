@@ -100,8 +100,8 @@ export default function Navbar() {
       <ul className="hidden md:flex gap-10  text-lg font-light">
         <Link to="/home" className="hover:opacity-70">Home</Link>
         <Link to="/about" className="hover:opacity-70">About</Link>
-        <Link to="/portfolio" className="hover:opacity-70">portfolio</Link>
-        <Link to="/Gallery" className="hover:opacity-70">gallery</Link>
+        <Link to="/Portfolio" className="hover:opacity-70">Portfolio</Link>
+        <Link to="/Gallery" className="hover:opacity-70">Gallery</Link>
         <Link to="/testimonials" className="hover:opacity-70">Wedding Films</Link>
         <Link to="/contact" className="hover:opacity-70">Contact Us</Link>
       </ul>
