@@ -1,0 +1,26 @@
+import mongoose from "mongoose";
+
+const albumSchema = new mongoose.Schema(
+  {
+    title: {
+      type: String,
+      required: true,
+    },
+    slug: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    coverUrl: {
+      type: String,
+      default: "",
+    },
+    coverPublicId: {
+      type: String,
+      default: "",
+    },
+  },
+  { timestamps: true }
+);
+
+export default mongoose.model("Album", albumSchema);
