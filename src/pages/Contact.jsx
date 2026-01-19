@@ -1,7 +1,7 @@
 
 
 import cover from "../assets/images/cover.jpg";
-import aboutus from "../assets/images/aboutus.jpg";
+import aboutus from "../assets/images/reff3-min.JPG";
 
 export default function Contact() {
   return (

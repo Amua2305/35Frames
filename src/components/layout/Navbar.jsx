@@ -126,6 +126,7 @@ export default function Navbar() {
       <ul className="flex flex-row flex-wrap justify-center font-[Cormorant_Garamond]   items-center gap-5 text-lg font-medium py-4 px-5">
      <Link to="/home" onClick={() => setMenuOpen(false)}>Home</Link>
      <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+     <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
      <Link to="/portfolio" onClick={() => setMenuOpen(false)}>Portfolio</Link>
      <Link to="/testimonials" onClick={() => setMenuOpen(false)}>Wedding Films</Link>
      <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
