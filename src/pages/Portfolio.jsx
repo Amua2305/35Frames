@@ -20,7 +20,7 @@ export default function Portfolio() {
       setAlbums(JSON.parse(cached));
     } else {
       // Fetch fresh data
-      fetch("https://three5frames.onrender.com/albums")
+      fetch("http://localhost:5000/albums")
         .then((res) => res.json())
         .then((data) => {
           setAlbums(data);

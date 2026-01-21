@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "https://three5frames.onrender.com";
+const API = "http://localhost:5000";
 
 export default function Admin() {
   const [albums, setAlbums] = useState([]);
