@@ -7,6 +7,8 @@ import albumRoutes from "./routes/albums.js";
 import uploadRoutes from "./routes/upload.js";
 import authRoutes from "./routes/auth.js";
 
+const PORT = process.env.PORT || 5000;
+
 dotenv.config();
 
 const app = express();
@@ -25,6 +27,6 @@ mongoose
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
