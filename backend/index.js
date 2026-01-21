@@ -20,7 +20,9 @@ app.use("/uploads",express.static("uploads"));
 app.use("/albums", albumRoutes);
 app.use("/upload", uploadRoutes);
 app.use("/auth", authRoutes);
-
+app.get("/", (req,res)=>{
+   res.send("Backend is running");
+})
 
 mongoose
   .connect(process.env.MONGO_URI)
