@@ -6,10 +6,10 @@ import mongoose from "mongoose";
 import albumRoutes from "./routes/albums.js";
 import uploadRoutes from "./routes/upload.js";
 import authRoutes from "./routes/auth.js";
+dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-dotenv.config();
 
 const app = express();
 
